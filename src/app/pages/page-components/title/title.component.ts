@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { TitleCircleComponent } from '../title-circle/title-circle.component';
 
 @Component({
@@ -7,6 +7,9 @@ import { TitleCircleComponent } from '../title-circle/title-circle.component';
   styleUrls: ['./title.component.scss']
 })
 export class TitleComponent implements OnInit {
+
+  @Input() title!: string;
+  @Input() paragraph!: string;
 
   constructor() { }
 
