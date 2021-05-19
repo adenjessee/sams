@@ -1,0 +1,38 @@
+
+@media screen and (min-width: 440px){
+    img{
+        left: -10vw;
+        width: 120vw;
+        filter: brightness(30%);
+        position: absolute;
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width: 440px){
+    img{
+        height: 100vh;
+        filter: brightness(16%);
+        position: absolute;
+        z-index: -1;
+    }
+}
+
+@media screen and (min-width: 600px){
+    .center-wrapper{
+        display: grid;
+        grid-template-columns: 25vw 50vw 25vw;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .center-wrapper{
+        display: grid;
+        grid-template-columns: 5vw 90vw 5vw;
+    }
+}
+
+.box {
+    background-color:  #FFFFFF00;
+}
+

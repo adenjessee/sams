@@ -1,0 +1,30 @@
+
+@media screen and (min-width: 600px){
+  .dot {
+      background-color: #00000088;
+      border-radius: 50%;
+      height:50vw;
+      width:50vw;
+      margin-top: 5vw;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+}
+
+@media screen and (max-width: 599px){
+  .dot {
+      background-color: #FFFFFF00;
+      border-radius: 50%;
+      height:50vw;
+      width:90vw;
+      margin-top: 14vw;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+  }
+}
+
+
+

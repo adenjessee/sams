@@ -1,0 +1,33 @@
+
+.headerImage{
+    width: 200px;
+}
+
+img{
+    height: 5vw;
+}
+
+nav{
+    padding:0;
+}
+
+.navbar-brand{
+    padding:0;
+}
+
+.container-fluid{
+    padding:0;
+}
+
+.navbar-nav > li{
+    padding-left:22px;
+    padding-right:22px;
+}
+
+.navbar-nav > li > a{
+    color:#D6C178; 
+}
+
+.navbar-nav > li > a:hover{
+    color:#fffaea; 
+}
