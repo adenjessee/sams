@@ -1,0 +1,41 @@
+
+.split-two{
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 30vw;
+}
+
+img{
+    object-fit: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+}
+
+.box{
+    text-align:center;
+    height:100%;
+    width:100%;
+    background-color: #292929;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: #292929;
+}
+
+
+
+h1,h2,h3{
+    font-size: 24pt;
+}
+li{
+    font-size: 18pt;
+}

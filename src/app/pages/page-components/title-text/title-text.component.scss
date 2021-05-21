@@ -1,21 +1,46 @@
-@media screen and (max-width: 950px) and (min-width: 890px){
-    h1{
+
+
+
+@media screen and (min-width: 910px){
+    h1,h2,h3{
         font-size: 24pt;
     }
+    p{
+        font-size: 16pt;
+    }
 }
-@media screen and (max-width: 890px){
+@media screen and (max-width: 910px){
     h1{
         font-size: 18pt;
+    }
+    p{
+        font-size: 16pt;
     }
 }
 
-@media screen and (max-width: 950px) and (min-width: 890px){
-    h3{
+@media screen and (min-width: 910px){
+    h1,h2,h3{
         font-size: 18pt;
     }
+    p{
+        font-size: 16pt;
+    }
 }
-@media screen and (max-width: 890px){
+@media screen and (max-width: 910px){
     h3{
         font-size: 12pt;
     }
+    p{
+        font-size: 10pt;
+    }
 }
+
+@media screen and (max-width: 800px){
+    h3{
+        font-size: 10pt;
+    }
+    p{
+        font-size: 9pt;
+    }
+}
+

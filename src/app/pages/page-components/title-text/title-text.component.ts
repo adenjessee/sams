@@ -12,6 +12,7 @@ export class TitleTextComponent implements OnInit {
   @Input() paragraph!: string;
 
   constructor(){}
+  
   ngOnInit(): void {
   }
 

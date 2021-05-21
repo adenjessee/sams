@@ -1,0 +1,40 @@
+
+<div *ngIf="imageLeft; else imageOnRight">
+    <div class="container-fluid p-0 split-two">    
+        <img src={{src}}/>  
+        <div class="box">
+
+            <h2>{{title}}</h2>
+
+            <p>Headquarters Location:</p>
+            <p>{{hqLocation}}</p>
+        
+            <p>Phone: {{phone}}</p>
+
+            <p>Email: {{email}}</p>
+
+            <img class="logo" src={{logoSrc}}/> 
+
+        </div>
+    </div>
+</div>
+
+<ng-template #imageOnRight>
+    <div class=" container-fluid p-0 split-two"> 
+        <div class="box">
+
+                <h2>{{title}}</h2>
+
+                <p>Headquarters Location:</p>
+                <p>{{hqLocation}}</p>
+            
+                <p>Phone: {{phone}}</p>
+
+                <p>Email: {{email}}</p>
+
+                <img class="logo" src={{logoSrc}}/> 
+
+        </div>
+        <img src={{src}}/> 
+    </div>
+</ng-template>

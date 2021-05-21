@@ -1,4 +1,5 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, HostBinding } from '@angular/core';
+import {DomSanitizer, SafeStyle} from '@angular/platform-browser';
 
 @Component({
   selector: 'app-title-circle',
@@ -9,8 +10,7 @@ export class TitleCircleComponent implements OnInit {
 
   @Input() title!: string;
   @Input() paragraph!: string;
-
-  constructor() { }
+  @Input() height : string = "100%";
 
   ngOnInit(): void {
   }

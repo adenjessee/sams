@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,6 +17,14 @@ import { ChefsPageComponent } from './pages/chefs-page/chefs-page.component';
 import { SignUpPageComponent } from './pages/sign-up-page/sign-up-page.component';
 import { SignInPageComponent } from './pages/sign-in-page/sign-in-page.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
+import { HalfImageHalfTextComponent } from './pages/page-components/half-image-half-text/half-image-half-text.component';
+import { HalfImageHalfTextPointsComponent } from './pages/page-components/half-image-half-text-points/half-image-half-text-points.component';
+import { TitleTextPointsComponent } from './pages/page-components/title-text-points/title-text-points.component';
+import { HalfImageHalfTextContactComponent } from './pages/page-components/half-image-half-text-contact/half-image-half-text-contact.component';
+import { MenuItemComponent } from './pages/page-components/menu-item/menu-item.component';
+import { ContactComponent } from './pages/page-components/contact/contact.component';
+import { SelectLocationComponent } from './pages/page-components/select-location/select-location.component';
+
 
 @NgModule({
   declarations: [
@@ -33,13 +41,23 @@ import { ContactPageComponent } from './pages/contact-page/contact-page.componen
     ChefsPageComponent,
     SignUpPageComponent,
     SignInPageComponent,
-    ContactPageComponent
+    ContactPageComponent,
+    HalfImageHalfTextComponent,
+    HalfImageHalfTextPointsComponent,
+    TitleTextPointsComponent,
+    HalfImageHalfTextContactComponent,
+    MenuItemComponent,
+    ContactComponent,
+    SelectLocationComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     HttpClientModule
+  ],
+  schemas: [
+    CUSTOM_ELEMENTS_SCHEMA
   ],
   providers: [],
   bootstrap: [AppComponent]
