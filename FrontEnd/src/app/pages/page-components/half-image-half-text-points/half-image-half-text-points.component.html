@@ -1,0 +1,63 @@
+
+<div *ngIf="imageLeft; else imageOnRight">
+    <div class="container-fluid p-0 split-two">    
+        <img src={{src}}/>  
+        <div class="box">
+            <h2>
+                Our Specialties
+            </h2>
+
+            <ul>
+                <li>
+                    Cras ut viverra eros.
+                </li>
+                <li>
+                    Phasellus sollicitudin 
+                </li>
+                <li>
+                    Sapien id luctus tempor. Sed hend rerit inter dum sagittis. 
+                </li>
+                <li>
+                    Donec nunc lacus, 
+                </li>
+                <li>
+                    dapibus nec interdum eget, ultrices eget justo. 
+                </li>
+                <li>
+                    Nam purus lacus,
+                </li>
+            </ul>  
+        </div>
+    </div>
+</div>
+
+<ng-template #imageOnRight>
+    <div class=" container-fluid p-0 split-two"> 
+        <div class="container">
+            <h2 class="text-center mt-4">
+                Our Specialties
+            </h2>
+            <ul>
+                <li>
+                    <a href="#">Cras ut viverra eros.</a>
+                </li>
+                <li>
+                    <a href="#">Phasellus sollicitudin </a>
+                </li>
+                <li>
+                    <a href="#">Sapien id luctus tempor. Sed hend rerit inter dum sagittis. </a>
+                </li>
+                <li>
+                    <a href="#">Donec nunc lacus, </a>
+                </li>
+                <li>
+                    <a href="#">dapibus nec interdum eget, ultrices eget justo. </a>
+                </li>
+                <li>
+                    <a href="#">Nam purus lacus,</a>
+                </li>
+            </ul> 
+        </div>
+        <img src={{src}}/>  
+    </div>
+</ng-template>
