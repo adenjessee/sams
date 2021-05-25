@@ -1,4 +1,4 @@
-export interface Hero{
+export interface FoodLocation{
     id: number;
     name: string;
 }

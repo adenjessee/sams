@@ -14,9 +14,6 @@ import { ContactPageComponent } from './pages/contact-page/contact-page.componen
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomePageComponent },
-  // example for :id ==> { path: 'detail/:id', component: HeroDetailComponent },
-  // { path: 'heroes', component: HeroesComponent }
-
   { path: 'menu', component: MenuPageComponent },
   { path: 'mission', component: MissionPageComponent },
   { path: 'reserve', component: ReservePageComponent },

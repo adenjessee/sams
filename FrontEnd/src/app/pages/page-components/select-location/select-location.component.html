@@ -14,12 +14,10 @@
                         readonly class="form-control-plaintext" 
                         id="staticEmail" 
                         value="28 Seventh Avenue, Neew York, 10014">
+                        
                         <select name="cars" class="dark">
-                            <option value="volvo">Volvo</option>
-                            <option value="saab">Saab</option>
-                            <option value="opel">Opel</option>
-                            <option value="audi">Audi</option>
-                          </select>
+                            <option *ngFor="let loc of this.locationNames">{{loc}}</option>
+                        </select>
                 </div>
             </div>
             <div class="form-group row text-center">

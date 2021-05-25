@@ -9,37 +9,37 @@ namespace API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class HeroesController : ControllerBase
+    public class LocationsController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching22"
         };
 
-        private readonly ILogger<HeroesController> _logger;
+        private readonly ILogger<LocationsController> _logger;
 
-        public HeroesController(ILogger<HeroesController> logger)
+        public LocationsController(ILogger<LocationsController> logger)
         {
             _logger = logger;
         }
 
         [HttpGet]
-        public IEnumerable<Hero> Get()
+        public IEnumerable<Location> Get()
         {
-            return Enumerable.Range(1, 5).Select(index => new Hero
+            return Enumerable.Range(1, 5).Select(index => new Location
             {
-                Name = "Hero#" + index.ToString(),
+                Name = "Location#" + index.ToString(),
                 id = index
             })
             .ToArray();
         }
 
         [HttpGet("{id}")]
-        public Hero GetQuery(int id)
+        public Location GetQuery(int id)
         {
-            return new Hero
+            return new Location
             {
-                Name = "Hero#" + id.ToString(),
+                Name = "Location#" + id.ToString(),
                 id = id
             };
         }
