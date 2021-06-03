@@ -5,6 +5,7 @@ import { Observable, of } from 'rxjs';
 import { MessageService } from './message.service';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { catchError, map, tap } from 'rxjs/operators';
+import { promise } from 'protractor';
 
 @Injectable({
   providedIn: 'root'
@@ -19,8 +20,6 @@ export class LocationService {
     headers: new HttpHeaders({ 'Content-Type': 'application/json' })
   };
 
-  items = [];
-
   private locationsUrl = 'https://localhost:44398/Locations';  // URL to web api
 
   // why are we using pipe and have 'getLocations' in quotes??? strange
@@ -30,12 +29,8 @@ export class LocationService {
   //  );
   //}
 
-  getLocations(): void {
-    this.http.get<FoodLocation[]>(this.locationsUrl).toPromise().then(data => {
-      console.log(data);
-
-    });
-    
+  getLocations(): any {
+    return this.http.get(this.locationsUrl);
   }
 
   getLocation(id: number): Observable<FoodLocation> {

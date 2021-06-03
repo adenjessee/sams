@@ -13,15 +13,12 @@ export class SelectLocationComponent implements OnInit {
 
   locations: FoodLocation[] = [];
 
-  locationNames: string[] = [];
-
   constructor(private locationService: LocationService) { }
 
   ngOnInit(): void {
-    this.getLocations();
-    this.locationNames = this.locations.map(a => a.name);
-    console.log("hey there");
-    console.log(this.locations);
+    this.locationService.getLocations().subscribe((data: FoodLocation[]) => {
+      this.locations = data; 
+    });
   }
 
   getLocations(): void {

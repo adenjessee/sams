@@ -8,15 +8,15 @@
                 
                 <label style="font-size: 20pt" for="staticEmail" class="col-sm-4 col-form-label">Location</label>
                 <div class="col-sm-8">
-                    <input 
+                    <!--<input 
                         style="font-size: 20pt" 
                         type="text" 
                         readonly class="form-control-plaintext" 
                         id="staticEmail" 
-                        value="28 Seventh Avenue, Neew York, 10014">
+                        value="28 Seventh Avenue, Neew York, 10014">-->
                         
-                        <select name="cars" class="dark">
-                            <option *ngFor="let loc of this.locationNames">{{loc}}</option>
+                        <select  name="search_categories" id="search_categories" class="dark">
+                            <option *ngFor="let loc of this.locations">{{loc.name}}</option>
                         </select>
                 </div>
             </div>
