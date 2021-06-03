@@ -1,0 +1,16 @@
+C:\Users\AdenJesse\Desktop\Sams\API\Sams.Data\bin\Debug\netcoreapp5.0\Sams.Data.deps.json
+C:\Users\AdenJesse\Desktop\Sams\API\Sams.Data\bin\Debug\netcoreapp5.0\Sams.Data.runtimeconfig.json
+C:\Users\AdenJesse\Desktop\Sams\API\Sams.Data\bin\Debug\netcoreapp5.0\Sams.Data.runtimeconfig.dev.json
+C:\Users\AdenJesse\Desktop\Sams\API\Sams.Data\bin\Debug\netcoreapp5.0\Sams.Data.dll
+C:\Users\AdenJesse\Desktop\Sams\API\Sams.Data\bin\Debug\netcoreapp5.0\ref\Sams.Data.dll
+C:\Users\AdenJesse\Desktop\Sams\API\Sams.Data\bin\Debug\netcoreapp5.0\Sams.Data.pdb
+C:\Users\AdenJesse\Desktop\Sams\API\Sams.Data\obj\Debug\netcoreapp5.0\Sams.Data.csprojAssemblyReference.cache
+C:\Users\AdenJesse\Desktop\Sams\API\Sams.Data\obj\Debug\netcoreapp5.0\Sams.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AdenJesse\Desktop\Sams\API\Sams.Data\obj\Debug\netcoreapp5.0\Sams.Data.AssemblyInfoInputs.cache
+C:\Users\AdenJesse\Desktop\Sams\API\Sams.Data\obj\Debug\netcoreapp5.0\Sams.Data.AssemblyInfo.cs
+C:\Users\AdenJesse\Desktop\Sams\API\Sams.Data\obj\Debug\netcoreapp5.0\Sams.Data.csproj.CoreCompileInputs.cache
+C:\Users\AdenJesse\Desktop\Sams\API\Sams.Data\obj\Debug\netcoreapp5.0\Sams.Data.dll
+C:\Users\AdenJesse\Desktop\Sams\API\Sams.Data\obj\Debug\netcoreapp5.0\ref\Sams.Data.dll
+C:\Users\AdenJesse\Desktop\Sams\API\Sams.Data\obj\Debug\netcoreapp5.0\Sams.Data.pdb
+C:\Users\AdenJesse\Desktop\Sams\API\Sams.Data\obj\Debug\netcoreapp5.0\Sams.Data.genruntimeconfig.cache
+C:\Users\AdenJesse\Desktop\Sams\API\Sams.Data\obj\Debug\netcoreapp5.0\EFCoreSqlServerNetTopologySuite.cs
